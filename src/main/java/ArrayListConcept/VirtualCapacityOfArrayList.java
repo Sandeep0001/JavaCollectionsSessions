@@ -1,6 +1,5 @@
-package JavaCollections;
+package ArrayListConcept;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class VirtualCapacityOfArrayList {
