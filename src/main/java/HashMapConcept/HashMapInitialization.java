@@ -1,9 +1,5 @@
 package HashMapConcept;
 
-import com.sun.javafx.collections.ImmutableObservableList;
-import jdk.nashorn.internal.ir.annotations.Immutable;
-
-import javax.management.ImmutableDescriptor;
 import java.util.AbstractMap;
 import java.util.Collections;
 import java.util.HashMap;
@@ -66,7 +62,7 @@ public class HashMapInitialization {
 
         //7. JDK 1.9:
         //empty map:
-        //Map<String, String> emptyMap = Map.of();  -> Creates empty map
+        //Map<String, String> emptyMap = Map.of(); -> Creates empty map
         //emptyMap.put("Tom", "Python");  -> Cannot add any item to empty map
         //System.out.println(emptyMap.get("Tom")); //UnsupportedOperationException
 
